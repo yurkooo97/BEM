@@ -10,3 +10,114 @@ html{
 body{
   min-height: 100%;
 }
+.wrapper{
+  padding: 20px;
+  max-width: 1200px;
+  
+}
+.wrapper_full-width{
+  max-width: 10000px;
+}
+.fixed-footer, .fixed-header{
+  display: flex;
+  flex-direction: column;
+}
+.fixed-header{
+  height: 100%
+}
+.fixed-header .page{overflow-y: scroll;
+
+
+}
+.fixed-footer .page{
+  flex: 1 auto;
+}
+.fixed-footer .footer{
+  margin-top: auto;
+}
+
+.main_page{
+  width: 500;
+}
+
+.mem{
+  
+}
+.mem__img{
+  float: left;
+  height: 484px;
+}
+
+.mem__title .mem__idea .mem__actors .mem__year .mem__comment {
+  display: flex;
+  flex-direction: column;
+
+}
+.mem__title{
+  font-size: 32pt;
+  font-family: Arial;
+  padding-left: 380px;
+}
+
+.mem__idea{
+  font-style: italic;
+  font-size: 18pt;
+  padding: 45px;
+  padding-left: 380px;
+}
+.mem__actors{
+  font-size: 18pt;
+  padding-left: 380px;
+}
+.mem__actors-name{
+  font-size: 18pt;
+}
+.mem__year{
+  font-size: 18pt;
+  padding: 45px;
+  padding-left: 380px;
+}
+.mem__comment{
+  font-size: 18pt;
+  padding-left: 380px;
+  padding-bottom: 15px;
+}
+.mem__button-play{
+  padding: 16px;
+  background: green;
+  margin-left: 350px;
+  font-family: Arial;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20pt;
+
+
+
+  
+  
+  
+  
+
+
+  
+}
+.mem__button-tolist{
+  width: 45px;
+  height: 18px;
+  padding: 16px;
+  background: red;
+  font-family: Arial;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20pt;
+
+
+  
+}
+  
+.mem__button{
+  width: 60px;
+  height: 18px;
+}
