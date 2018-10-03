@@ -36,88 +36,107 @@ body{
   margin-top: auto;
 }
 
-.main_page{
-  width: 500;
-}
-
-.mem{
-  
-}
-.mem__img{
-  float: left;
-  height: 484px;
-}
-
-.mem__title .mem__idea .mem__actors .mem__year .mem__comment {
-  display: flex;
-  flex-direction: column;
-
-}
-.mem__title{
-  font-size: 32pt;
+.movie__title{
   font-family: Arial;
-  padding-left: 380px;
+  font-size: 2.5em;
 }
-
-.mem__idea{
+.movie__slogan{
   font-style: italic;
-  font-size: 18pt;
-  padding: 45px;
-  padding-left: 380px;
+  font-size: 1.5em;
 }
-.mem__actors{
-  font-size: 18pt;
-  padding-left: 380px;
+li{
+  list-style-type: none;
+  font-size: 1.5em;
 }
-.mem__actors-name{
-  font-size: 18pt;
+.movie__year{
+  font-size: 1.5em;
 }
-.mem__year{
-  font-size: 18pt;
-  padding: 45px;
-  padding-left: 380px;
+.movie__comment{
+  font-size: 1.5em;
 }
-.mem__comment{
-  font-size: 18pt;
-  padding-left: 380px;
-  padding-bottom: 15px;
+.movie__description-row{
+  margin: 20px 0;
 }
-.mem__button-play{
-  padding: 16px;
-  background: green;
-  margin-left: 350px;
-  font-family: Arial;
+.ta-center{
+  text-align: center;
+}
+.button{
+  background: #007D1C;
   color: white;
-  font-style: normal;
+  padding: 12px 15px;
   text-decoration: none;
-  font-size: 20pt;
+  display: inline-block;
+  text-transform: uppercase;
 
 
-
-  
-  
-  
-  
-
-
-  
 }
-.mem__button-tolist{
-  width: 45px;
-  height: 18px;
-  padding: 16px;
+.button_blue{
+  background:   #38B2CE;
+}
+
+@media (min-width: 560px ){
+  .movie { 
+    display: flex;
+
+  }
+  .movie_poster  {
+    max-width: 200px;
+  }
+}
+.ml-30{
+  margin-left: 30px;
+}
+.alex__project{
+  background: #BDBDBD;
+  position: relative;
+}
+img{
+  width: 250px;
+}
+
+.alex__avatar{
+  margin: 20px;
+}
+@media (min-width: 560px ){
+  .alex__project { 
+    display: flex;
+
+  }
+  .alex__avatar  {
+    max-width: 200px;
+  }
+}
+.button__add{
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+
+}
+.alex__name{
+  font-weight: bold;
+  font-size: 2em;
+}
+.avatar__img{
+  width: 100%;
+}
+.alex__description-row{
+  margin: 20px 0;
+}
+.alex__experience{
+  font-style: italic;
+  font-size: 0.8em;
+}
+.alex__skills{
+  font-size: 1.2em;
+}
+.alex__reviews{
+  font-size: 1.2em;
+}
+.td-none{
+  
+  text-decoration: none;
+}
+.button_red{
   background: red;
-  font-family: Arial;
-  color: white;
-  font-style: normal;
-  text-decoration: none;
-  font-size: 20pt;
-
-
-  
-}
-  
-.mem__button{
-  width: 60px;
-  height: 18px;
 }
